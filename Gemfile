@@ -24,7 +24,7 @@ group :rubygems do
 end
 
 group :sss do
-  gem 'aws-sdk'
+  gem 'aws-sdk', '= 1.61.0'
   gem 'mime-types'
 end
 
