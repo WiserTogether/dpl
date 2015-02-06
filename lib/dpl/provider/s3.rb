@@ -1,7 +1,7 @@
 module DPL
   class Provider
     class S3 < Provider
-      requires 'aws-sdk'
+      requires 'aws-sdk-v1'
       requires 'mime-types'
 
       def api

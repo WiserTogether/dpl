@@ -1,7 +1,7 @@
 module DPL
   class Provider
     class OpsWorks < Provider
-      requires 'aws-sdk'
+      requires 'aws-sdk-v1'
       experimental 'AWS OpsWorks'
 
       def api
